@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');//various http interpretation
 var db= require('./database');
 
 const ENV = process.env.NODE_ENV;
-const PORT = process.env.PORT || 8000;//express server running port
+const PORT = process.env.PORT || 5000;//express server running port
 
 const app = express();
 app.use(express.json());
