@@ -1,0 +1,36 @@
+{
+  "name": "fullstack-react-weather-app",
+  "version": "1.0.0",
+  "description": "Full stack react tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajanivarpe/fullstack-react-weather-app.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Rajani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajanivarpe/fullstack-react-weather-app/issues"
+  },
+  "homepage": "https://github.com/rajanivarpe/fullstack-react-weather-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1",
+    "pg": "^8.0.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
