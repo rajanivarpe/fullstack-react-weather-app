@@ -34,6 +34,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy":"http://localhost:4000"
+  "proxy":"http://weather-app-rv-2020.herokuapp.com"
   
 }
