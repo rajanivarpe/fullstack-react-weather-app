@@ -2,7 +2,7 @@ var { Pool } = require('pg');
 
 const CONNECTION_STRING = process.env.DATABASE_URL || 'postgresql://postgres:161991@localhost:5432/weather-db';
 const SSL = process.env.NODE_ENV === 'production'; //when deployed on heroku..iy takes as 'production' value else 'development'
-
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 class Database{
     constructor(){
         this._pool = new Pool({

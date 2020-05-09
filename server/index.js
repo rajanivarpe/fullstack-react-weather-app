@@ -7,6 +7,9 @@ var db= require('./database');
 const ENV = process.env.NODE_ENV;
 const PORT = process.env.PORT || 4000;//express server running port
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
+
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
