@@ -10,7 +10,7 @@ class Weather{
         }).then(function(res){
             callback(res);
         }).catch(function(err){
-            console.log(err);
+            console.log("err-->>",err);
             callback({error: 'Could not reach Openweathermap API.'});
         });
     }
