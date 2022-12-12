@@ -27,7 +27,7 @@
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
     "create-react-app": "^3.4.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jquery": "^3.5.1",
     "jsdom": "^16.2.2",
     "pg": "^8.0.3",
